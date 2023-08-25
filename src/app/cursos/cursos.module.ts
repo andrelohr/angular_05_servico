@@ -1,7 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 
-//import { AppRoutingModule } from '../app-routing.module';
 import { CursosService } from '../cursos/cursos.service';
 import { CursosComponent } from './cursos.component';
 
@@ -11,7 +10,6 @@ import { CursosComponent } from './cursos.component';
   ],
   imports: [
     CommonModule,
-//    AppRoutingModule
   ],
   exports: [CursosComponent],
   //providers: [CursosService]
